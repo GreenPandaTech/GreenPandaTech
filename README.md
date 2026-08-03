@@ -69,10 +69,29 @@ checked rather than believed.
 - **[EndeavourRacing](https://github.com/GreenPandaTech/EndeavourRacing)** — the
   web applications for a student motorsport team: the marketing site, a lap-time
   prediction tool, and a project, risk and budget dashboard.
+- **[TradingEngineResearch](https://github.com/GreenPandaTech/TradingEngineResearch)** —
+  the research core of a systematic trading platform: a fail-closed engine, a
+  default-deny validation gate, and a pre-registered alpha search whose honest
+  result was negative.
+- **[MeltSim](https://github.com/GreenPandaTech/MeltSim)** — an interactive
+  thermodynamics sandbox: enthalpy-method melting, solidification and boiling in
+  the browser, with zero runtime dependencies.
+- **[IaCScanner](https://github.com/GreenPandaTech/IaCScanner)** — an offline
+  infrastructure-as-code misconfiguration scanner: Terraform, Kubernetes,
+  Actions and Dockerfile rule packs, SARIF output, and a fail-only-on-new CI
+  baseline.
+- **[DocRedact](https://github.com/GreenPandaTech/DocRedact)** — a local-first,
+  policy-driven document redaction CLI that never sends a document anywhere.
+- **[VisionCheckR](https://github.com/GreenPandaTech/VisionCheckR)** — a
+  privacy-first educational vision self-check that runs entirely in the browser,
+  with a pure, unit-tested scoring core. Not a medical device.
+- **[ClimateMesh](https://github.com/GreenPandaTech/ClimateMesh)** — a Raspberry
+  Pi environmental sensing mesh with explainable early-warning risk scoring,
+  built by two sixth-form students for the PA Raspberry Pi Competition 2026.
 
-Some work stays private: a live web application with real users, and a systematic
-trading platform whose live path is disabled by design. Neither is private for
-want of finishing.
+Some work stays private: a live web application with real users, and the
+live-trading side of the platform whose research core is published above.
+Neither is private for want of finishing.
 
 Mostly Python and TypeScript, with SAT solvers, DRAT/LRAT proof checking, and
 whatever numerical method the problem happens to need.
