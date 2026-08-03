@@ -44,10 +44,35 @@ library.
 ## What I build
 
 Roughly one idea, applied repeatedly: a result is worth what its verification is
-worth. Compilers and interpreters, a consensus implementation whose safety
-properties are machine-checked by deterministic simulation, a physically
-validated renderer written with no dependencies, numerical simulation, and a
-production web application. Most of it is private.
+worth. Each of these is public, and each is built so that what it claims can be
+checked rather than believed.
+
+- **[QuantumCompiler](https://github.com/GreenPandaTech/QuantumCompiler)** — a
+  compiler for quantum circuits, its transformations stated as properties that
+  are tested rather than asserted.
+- **[RaftSim](https://github.com/GreenPandaTech/RaftSim)** — an implementation of
+  the Raft consensus protocol whose safety properties are machine-checked under
+  deterministic simulation, so a violation reproduces from a seed instead of
+  appearing once and vanishing.
+- **[PathTracer](https://github.com/GreenPandaTech/PathTracer)** — a physically
+  based renderer written with no dependencies, validated against what the physics
+  predicts in advance.
+- **[StatsReferee](https://github.com/GreenPandaTech/StatsReferee)** — a checker
+  for statistical claims, aimed at the gap between a number being computed and a
+  number being meaningful.
+- **[PuzzleForge](https://github.com/GreenPandaTech/PuzzleForge)** — chess tooling:
+  an engine, an analyser, and a puzzle generator that must prove a puzzle sound
+  before it will emit it.
+- **[TerminalAgent](https://github.com/GreenPandaTech/TerminalAgent)** — a
+  terminal-based agent, built around the question of what such a thing should
+  refuse to do.
+- **[EndeavourRacing](https://github.com/GreenPandaTech/EndeavourRacing)** — the
+  web applications for a student motorsport team: the marketing site, a lap-time
+  prediction tool, and a project, risk and budget dashboard.
+
+Some work stays private: a live web application with real users, and a systematic
+trading platform whose live path is disabled by design. Neither is private for
+want of finishing.
 
 Mostly Python and TypeScript, with SAT solvers, DRAT/LRAT proof checking, and
 whatever numerical method the problem happens to need.
