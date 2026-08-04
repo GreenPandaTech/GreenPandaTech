@@ -90,6 +90,12 @@ checked rather than believed.
 - **[VisionCheckR](https://github.com/Leo-Y-Zhang/VisionCheckR)** — a
   privacy-first educational vision self-check that runs entirely in the browser,
   with a pure, unit-tested scoring core. Not a medical device.
+- **[Understudy](https://github.com/Leo-Y-Zhang/Understudy)** — an
+  interview rehearsal studio that runs entirely in the browser: on-device
+  face and speech analysis with an annotated replay of your answer. The
+  privacy claim is enforced rather than promised — a CI test records a real
+  session and fails the build if any request leaves the origin. Live at
+  [leo-y-zhang.github.io/Understudy](https://leo-y-zhang.github.io/Understudy/).
 - **[ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh)** — a Raspberry
   Pi environmental sensing mesh with explainable early-warning risk scoring,
   built by two sixth-form students for the PA Raspberry Pi Competition 2026.
