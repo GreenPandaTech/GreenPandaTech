@@ -37,7 +37,7 @@ only as trustworthy as the encoding behind it, so that half is where the work is
   submission pack until that gate runs to completion.
 
 Method, encoding, symmetry breaking and the limits of what has actually been
-proved are written up in [MathRecords](https://github.com/GreenPandaTech/MathRecords).
+proved are written up in [MathRecords](https://github.com/Leo-Y-Zhang/MathRecords).
 The standalone certificate verifier depends on nothing but the Python standard
 library.
 
@@ -47,45 +47,45 @@ Roughly one idea, applied repeatedly: a result is worth what its verification is
 worth. Each of these is public, and each is built so that what it claims can be
 checked rather than believed.
 
-- **[QuantumCompiler](https://github.com/GreenPandaTech/QuantumCompiler)** — a
+- **[QuantumCompiler](https://github.com/Leo-Y-Zhang/QuantumCompiler)** — a
   compiler for quantum circuits, its transformations stated as properties that
   are tested rather than asserted.
-- **[RaftSim](https://github.com/GreenPandaTech/RaftSim)** — an implementation of
+- **[RaftSim](https://github.com/Leo-Y-Zhang/RaftSim)** — an implementation of
   the Raft consensus protocol whose safety properties are machine-checked under
   deterministic simulation, so a violation reproduces from a seed instead of
   appearing once and vanishing.
-- **[PathTracer](https://github.com/GreenPandaTech/PathTracer)** — a physically
+- **[PathTracer](https://github.com/Leo-Y-Zhang/PathTracer)** — a physically
   based renderer written with no dependencies, validated against what the physics
   predicts in advance.
-- **[StatsReferee](https://github.com/GreenPandaTech/StatsReferee)** — a checker
+- **[StatsReferee](https://github.com/Leo-Y-Zhang/StatsReferee)** — a checker
   for statistical claims, aimed at the gap between a number being computed and a
   number being meaningful.
-- **[PuzzleForge](https://github.com/GreenPandaTech/PuzzleForge)** — chess tooling:
+- **[PuzzleForge](https://github.com/Leo-Y-Zhang/PuzzleForge)** — chess tooling:
   an engine, an analyser, and a puzzle generator that must prove a puzzle sound
   before it will emit it.
-- **[TerminalAgent](https://github.com/GreenPandaTech/TerminalAgent)** — a
+- **[TerminalAgent](https://github.com/Leo-Y-Zhang/TerminalAgent)** — a
   terminal-based agent, built around the question of what such a thing should
   refuse to do.
-- **[EndeavourRacing](https://github.com/GreenPandaTech/EndeavourRacing)** — the
+- **[EndeavourRacing](https://github.com/Leo-Y-Zhang/EndeavourRacing)** — the
   web applications for a student motorsport team: the marketing site, a lap-time
   prediction tool, and a project, risk and budget dashboard.
-- **[TradingEngineResearch](https://github.com/GreenPandaTech/TradingEngineResearch)** —
+- **[TradingEngineResearch](https://github.com/Leo-Y-Zhang/TradingEngineResearch)** —
   the research core of a systematic trading platform: a fail-closed engine, a
   default-deny validation gate, and a pre-registered alpha search whose honest
   result was negative.
-- **[MeltSim](https://github.com/GreenPandaTech/MeltSim)** — an interactive
+- **[MeltSim](https://github.com/Leo-Y-Zhang/MeltSim)** — an interactive
   thermodynamics sandbox: enthalpy-method melting, solidification and boiling in
   the browser, with zero runtime dependencies.
-- **[IaCScanner](https://github.com/GreenPandaTech/IaCScanner)** — an offline
+- **[IaCScanner](https://github.com/Leo-Y-Zhang/IaCScanner)** — an offline
   infrastructure-as-code misconfiguration scanner: Terraform, Kubernetes,
   Actions and Dockerfile rule packs, SARIF output, and a fail-only-on-new CI
   baseline.
-- **[DocRedact](https://github.com/GreenPandaTech/DocRedact)** — a local-first,
+- **[DocRedact](https://github.com/Leo-Y-Zhang/DocRedact)** — a local-first,
   policy-driven document redaction CLI that never sends a document anywhere.
-- **[VisionCheckR](https://github.com/GreenPandaTech/VisionCheckR)** — a
+- **[VisionCheckR](https://github.com/Leo-Y-Zhang/VisionCheckR)** — a
   privacy-first educational vision self-check that runs entirely in the browser,
   with a pure, unit-tested scoring core. Not a medical device.
-- **[ClimateMesh](https://github.com/GreenPandaTech/ClimateMesh)** — a Raspberry
+- **[ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh)** — a Raspberry
   Pi environmental sensing mesh with explainable early-warning risk scoring,
   built by two sixth-form students for the PA Raspberry Pi Competition 2026.
 
