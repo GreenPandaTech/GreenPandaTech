@@ -88,6 +88,12 @@ checked rather than believed.
 - **[ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh)** — a Raspberry
   Pi environmental sensing mesh with explainable early-warning risk scoring,
   built by two sixth-form students for the PA Raspberry Pi Competition 2026.
+- **[FireTurret](https://github.com/Leo-Y-Zhang/FireTurret)** — a camera-guided
+  fire-suppression turret demonstrator: simulation, vision and safety interlocks
+  behind one supervised control loop, with the safety case written down.
+- **[FilingsLab](https://github.com/Leo-Y-Zhang/FilingsLab)** — an SEC-filings
+  event-study backtester: disclosure ingestion, deflation-robust validation, and
+  a research loop that must prove an edge before believing it.
 
 Some work stays private: a live web application with real users, and the
 live-trading side of the platform whose research core is published above.
