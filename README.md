@@ -1,7 +1,12 @@
 # Leo Zhang
 
-I work on combinatorics, and on software whose claims can be checked by someone
-who does not trust me.
+I'm a sixth-form student in the UK. I like mathematics and building software
+that proves its own results — the kind where you can check the claim yourself
+instead of taking my word for it. That one idea runs through everything here:
+a puzzle generator that must prove a puzzle sound before emitting it, a
+consensus protocol whose safety properties are machine-checked, a renderer
+validated against what the physics predicts, and new terms for the OEIS that
+ship with their certificates.
 
 ## Mixed van der Waerden numbers
 
