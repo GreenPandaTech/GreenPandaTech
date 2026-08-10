@@ -31,9 +31,9 @@ only as trustworthy as the encoding behind it, so that half is where the work is
 
 - Four new terms established across four families, each shipping evidence
   alongside the claim rather than a solver's word for it.
-- **A217058 a(12) = 57 is submitted to the OEIS and under editorial review.**
-  It is *proposed*, not approved. Three further terms are prepared for
-  submission and have not been submitted.
+- **A217058 a(12) = 57 is in the OEIS: reviewed and approved, August 2026.**
+  Three further terms are submitted and under editorial review — *proposed*,
+  not approved.
 - DRAT refutation certificates are produced and independently verified for
   small rungs of all four families. **The headline term is not yet certified**
   at that standard, and the write-up says so.
