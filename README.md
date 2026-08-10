@@ -71,9 +71,6 @@ checked rather than believed.
 - **[TerminalAgent](https://github.com/Leo-Y-Zhang/TerminalAgent)** — a
   terminal-based agent, built around the question of what such a thing should
   refuse to do.
-- **[EndeavourRacing](https://github.com/Leo-Y-Zhang/EndeavourRacing)** — the
-  web applications for a student motorsport team: the marketing site, a lap-time
-  prediction tool, and a project, risk and budget dashboard.
 - **[TradingEngineResearch](https://github.com/Leo-Y-Zhang/TradingEngineResearch)** —
   the research core of a systematic trading platform: a fail-closed engine, a
   default-deny validation gate, and a pre-registered alpha search whose honest
