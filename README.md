@@ -98,7 +98,7 @@ checked rather than believed.
   [leo-y-zhang.github.io/Understudy](https://leo-y-zhang.github.io/Understudy/).
 - **[ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh)** — a Raspberry
   Pi environmental sensing mesh with explainable early-warning risk scoring,
-  built by two sixth-form students for the PA Raspberry Pi Competition 2026.
+  built for the PA Raspberry Pi Competition 2026.
 - **[FireTurret](https://github.com/Leo-Y-Zhang/FireTurret)** — a camera-guided
   fire-suppression turret demonstrator: simulation, vision and safety interlocks
   behind one supervised control loop, with the safety case written down.
